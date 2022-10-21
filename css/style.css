@@ -1,0 +1,123 @@
+:root {
+
+    --box-shadow-color: #020101;
+    --background: rgb(28, 28, 54);
+    --box-size: 10px
+  }
+  
+  * {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.par{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: beige;
+}
+
+.parbeg {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(149, 147, 167);
+    text-align:justify;
+    padding-top: 200;
+    padding-left: 700px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    margin: -550px -40px -100px -20px;
+}
+.audiowrap {
+    padding-top: -3px;
+    padding-left: 8px;
+    padding-right: -300px;
+    padding-bottom: -300px;
+    margin: -3px -20px 0px 800px;
+
+}
+
+
+
+.menu, ul {
+    color: #f9f9f9;
+    font-family: 'Special_New';
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 100px;
+    padding-bottom: -300px;
+    margin: 100px -5px -500px 30px;
+}
+
+.h1{
+    float: right;
+    color: #087099;
+    font-size: 60px;
+}
+  .heading {
+    color: cornflowerblue;
+    text-shadow: #087099;
+  }
+
+.photo1 {
+    display: inline;
+    width: 500px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+.photo2 {
+    display:inline;
+    width: 400px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+  
+  .content{
+    text-align:justify;
+    padding-top: 300;
+    padding-left: 800px;
+    padding-right: 0px;
+    padding-bottom: 150px;
+    margin: 10px 40px -100px -20px;
+    
+  }
+  .header{
+    /* background: var(--background); */
+    text-align: center;
+    /* top: 0; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    height: 100%;
+    margin: -15px 50px;
+    /* box-shadow: 0 0 16px 3px var(--box-shadow-color); */
+  
+  
+  }
+  .container{
+    margin: 0px 30px 0px 10px;
+    background: var(--background);
+    box-shadow: 0 0 16px 3px var(--box-shadow-color);
+    height: fit-content;
+  }
+
+  .photo{
+    margin: 60px 25px 10px 100px;
+    width: 500px;
+    height: 500px;
+  }
+
+  .footer {
+    margin: 100px 27px -5px 10px;
+    padding: 0px 30px 30px 50px;
+    color: #999;
+    text-align: center;
+    background-color: #918fc1;
+  }
+  
+  html{
+    overflow-x: hidden;
+  }
+
+  .top{
+    font-size: 30px;
+  }
